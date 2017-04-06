@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Redes de computares Básico</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Redes de computadores básico</h1>
+					<p>
+						<h3>Por Gomex</a></h3>
+					</p>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>História</li>
+						<li>O que é rede de computadores?</li>
+						<li>Por que eu preciso de redes?</li>
+						<li>Exibição de vídeo</li>
+						<li>Diferentes tipos de rede</li>
+						<li>Configurando redes no GNU/Linux</li>
+					</ul>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+					<section>
+						<h2>História</h2>
+
+						<img height="500" data-src=./img/historia1.jpg>
+
+					</section>
+					<section>
+						<h2>O que é rede de computadores?</h2>
+
+						<img height="500" data-src=./img/oquee2.jpg>
+
+					</section>
+
+					<section>
+						<h2>Por que eu preciso de redes?</h2>
+
+						<img data-src=./img/oquee.jpg>
+
+					</section>
+					<section>
+						<h2>Exibição de vídeo</h2>
+
+					</section>
+					<section>
+						<h2>Diferentes tipos de rede</h2>
+						<h3>Com fio (Cabeada)</h3>
+
+						<img data-src=./img/redecabeada.jpg>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Cabo de rede</h3>
+
+						<img data-src=./img/cabo.png>
+
+					</section>
+
+					<section>
+						<h2>Cabo de rede</h2>
+						<h3>Fazendo cabo de rede</h3>
+
+						<img data-src=./img/climpando.gif>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Switch</h3>
+
+						<img data-src=./img/switch.jpg>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Endereço IP</h3>
+
+						<img data-src=./img/ip.jpg>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Subrede</h3>
+
+						<img data-src=./img/subrede.jpg>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Como saber que a rede 10.0.0.0 não é a mesma da 10.0.20.0?</h3>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Mascara de sub-rede</h3>
+
+						<img data-src=./img/mascara.jpg>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Como funciona o acesso a internet?</h3>
+
+					</section>
+
+					<section>
+						<h2>Conceitos de rede com Fio</h2>
+						<h3>Como funciona o acesso a internet?</h3>
+
+						<img data-src=./img/acessointernet.jpg>
+
+					</section>
+
+					<section>
+						<h2>Diferentes tipos de rede</h2>
+						<h3>Sem fio (WiFi)</h3>
+
+						<img data-src=./img/redecabeada.jpg>
+
+					</section>
+
+				<section style="text-align: left;">
+					<h1>Contato</h1>
+					<p>
+						- gomex@riseup.net <br>
+						- <a href="https://github.com/gomex/gnulinux101">Código fonte dessa apresentação</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
